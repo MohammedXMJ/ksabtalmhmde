@@ -1,0 +1,634 @@
+:root{
+    --font-famyil-arabic: 'Cairo', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(231, 231, 231);
+}
+.back{
+    font-size: 16px;
+    font-family: var(--font-famyil-arabic);
+    font-family: var(--font-famyil-arabic);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.bg1{
+  background: url('imgs/background/background1.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div.bg1 p {
+  font-family: var(--font-famyil-arabic);
+  font-size: 23px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
+  padding: 20px 40px 20px 40px;
+}
+nav.infotext{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.welcome{
+    font-family: var(--font-famyil-arabic);
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+ul{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 10px;
+}
+li{
+    font-family: var(--font-famyil-arabic);
+    cursor: pointer;
+    font-size: 32px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+li:active{
+  font-size: 40px;
+}
+li.beef{
+  background: url("imgs/beef/4.jpeg");
+  height: 250px;
+  width: 250px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+li.shoe{
+  background: url("imgs/mshawe/4.jpeg");
+  height: 250px;
+  width: 250px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+li.shawrma{
+  background: url("imgs/shawrma/djaj.jpeg");
+  height: 250px;
+  width: 250px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+li.mkblat{
+  background: url("imgs/mkblat/1.jpeg");
+  height: 250px;
+  width: 250px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+li.contact{
+  background: url("imgs/contact.png");
+  height: 250px;
+  width: 250px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/******************* from here start imgs ****************/
+/******************* beef section ****************/
+section.beefsection{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+}
+section.beefsection div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+section.beefsection div p{
+  font-family: var(--font-famyil-arabic);
+  color: black;
+}
+/******************* mshaoe section ****************/
+section.mshaoesection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  visibility: hidden;
+}
+.textfood{
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: var(--font-famyil-arabic);
+  font-size: 30px;
+  color: rgb(54, 54, 54);
+}
+.box{
+    margin-top: 20px;
+    margin-right: 10px;
+    height: 380px;
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 50px;
+    background-color: rgb(231, 231, 231);
+}
+.foodinfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: var(--font-famyil-arabic);
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+/******************** food img section ****************/
+.imgmshaoe1{
+  background: url('imgs/mshawe/2.jpeg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 320px;
+  width: 250px;
+  border-radius: 40px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin-top: 10px;
+}
+.imgmshaoe2{
+  background: url('imgs/mshawe/3.jpeg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 320px;
+  width: 250px;
+  border-radius: 40px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin-top: 10px;
+}
+.imgmshaoe3{
+  background: url('imgs/mshawe/10.jpeg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 320px;
+  width: 250px;
+  border-radius: 40px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin-top: 10px;
+}
+.imgmshaoe4{
+  background: url('imgs/mshawe/7.jpeg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 320px;
+  width: 250px;
+  border-radius: 40px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin-top: 10px;
+}
+.imgmshaoe5{
+  background: url('imgs/mshawe/10.jpeg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 320px;
+  width: 250px;
+  border-radius: 40px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin-top: 10px;
+}
+.imgmshaoe6{
+  background: url('imgs/mshawe/10.jpeg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 320px;
+  width: 250px;
+  border-radius: 40px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin-top: 10px;
+}
+.imgmshaoe7{
+  background: url('imgs/beef/6.jpeg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 320px;
+  width: 250px;
+  border-radius: 40px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin-top: 10px;
+}
+.imgmshaoe8{
+  background: url('imgs/beef/5.jpeg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 320px;
+  width: 250px;
+  border-radius: 40px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin-top: 10px;
+}
+/******************* mshaoe section ****************/
+section.shawrmasection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 20px;
+  visibility: hidden;
+}
+.imgshawrma1{
+  background: url('imgs/shawrma/beef.jpeg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 420px;
+  width: 350px;
+  border-radius: 40px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin-top: 10px;
+}
+.ksdiv{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.lineinfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-between;
+  margin-top: 40px;
+  margin-right: 20px;
+}
+.linefood{
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 60px;
+}
+.text{
+  font-family: var(--font-famyil-arabic);
+  font-size: 20px;
+  text-align: center;
+}
+.imgshawrma2{
+  background: url('imgs/shawrma/djaj2.jpeg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 420px;
+  width: 350px;
+  border-radius: 40px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin-top: 10px;
+}
+.imgflafl{
+  background: url('imgs/flafl.jpeg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 420px;
+  width: 350px;
+  border-radius: 40px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin-top: 10px;
+}
+.vartoo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.vartext{
+    margin-top: 20px;
+    font-size: 34px;
+    font-family: var(--font-famyil-arabic);
+}
+/******************* mkblat section ****************/
+section.mkblatsection {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  visibility: hidden;
+}
+.allimg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    flex-direction: column;
+  gap: 30px;
+  margin-top: 20px;
+}
+.mkblat1{
+  background: url('imgs/mkblat/2.jpeg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 320px;
+  width: 250px;
+  border-radius: 40px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin-top: 10px;
+}
+.mkblat2{
+  background: url('imgs/mkblat/3.jpeg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 320px;
+  width: 250px;
+  border-radius: 40px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin-top: 10px;
+}
+.mkblat3{
+  background: url('imgs/mkblat/4.jpeg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 320px;
+  width: 250px;
+  border-radius: 40px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin-top: 10px;
+}
+.mkblat4{
+  background: url('imgs/mkblat/5.jpeg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 320px;
+  width: 250px;
+  border-radius: 40px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin-top: 10px;
+}
+.mkblat5{
+  background: url('imgs/mkblat/6.jpeg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 320px;
+  width: 250px;
+  border-radius: 40px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin-top: 10px;
+}
+.mkblat6{
+  background: url('imgs/mkblat/7.jpeg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 320px;
+  width: 250px;
+  border-radius: 40px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin-top: 10px;
+}
+.mkblat7{
+  background: url('imgs/mkblat/8.jpeg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 320px;
+  width: 250px;
+  border-radius: 40px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin-top: 10px;
+}
+.mkblat8{
+  background: url('imgs/mkblat/9.jpeg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 320px;
+  width: 250px;
+  border-radius: 40px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin-top: 10px;
+}
+.mkblat9{
+  background: url('imgs/mkblat/10.jpeg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 320px;
+  width: 250px;
+  border-radius: 40px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin-top: 10px;
+}
+.mkblat10{
+  background: url('imgs/mkblat/11.jpeg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 320px;
+  width: 250px;
+  border-radius: 40px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin-top: 10px;
+}
+.mkblat11{
+  background: url('imgs/mkblat/12.jpeg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 320px;
+  width: 250px;
+  border-radius: 40px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin-top: 10px;
+}
+.mkblat12{
+  background: url('imgs/mkblat/13.jpeg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 320px;
+  width: 250px;
+  border-radius: 40px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin-top: 10px;
+}
+.mkblat13{
+  background: url('imgs/mkblat/14.jpeg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 320px;
+  width: 250px;
+  border-radius: 40px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin-top: 10px;
+}
+.mkblat14{
+  background: url('imgs/mkblat/15.jpeg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 320px;
+  width: 250px;
+  border-radius: 40px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin-top: 10px;
+}
+.mkblat15{
+  background: url('imgs/mkblat/16.jpeg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 320px;
+  width: 250px;
+  border-radius: 40px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin-top: 10px;
+}
+.mkblat16{
+  background: url('imgs/mkblat/17.jpeg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 320px;
+  width: 250px;
+  border-radius: 40px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin-top: 10px;
+}
+.mkblat17{
+  background: url('imgs/mkblat/18.jpeg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 320px;
+  width: 250px;
+  border-radius: 40px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin-top: 10px;
+}
+.mkblat18{
+  background: url('imgs/mkblat/19.jpeg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 320px;
+  width: 250px;
+  border-radius: 40px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin-top: 10px;
+}
+.mkblat19{
+  background: url('imgs/mkblat/20.jpeg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 320px;
+  width: 250px;
+  border-radius: 40px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin-top: 10px;
+}
+.mkblat20{
+  background: url('imgs/mkblat/21.jpeg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 320px;
+  width: 250px;
+  border-radius: 40px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin-top: 10px;
+}
+.mkblat21{
+  background: url('imgs/mkblat/22.jpeg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 320px;
+  width: 250px;
+  border-radius: 40px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin-top: 10px;
+}
+.mkblat22{
+  background: url('imgs/mkblat/23.jpeg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 320px;
+  width: 250px;
+  border-radius: 40px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin-top: 10px;
+}
+/********************************* Constact ***************************/
+.contactsection{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+}
+.contactbox{
+  width: 350px;
+  height: 300px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.textcontact{
+  margin-top: 40px;
+  color: white;
+  font-family: var(--font-famyil-arabic);
+  text-align: center;
+}
+.whatsapp{
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+  flex-direction: row-reverse;
+}
+.whatsappimg{
+  background: url("imgs/whatsapp.png") no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+}
+.whatsappnumber{
+  color: white;
+  font-family: var(--font-famyil-arabic);
+  font-size: 20px;
+}
+.map{
+  margin-top: 20px;
+  width: 350px;
+  height: 400px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+/*********************** footer **************************/
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.des{
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+.destext{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
